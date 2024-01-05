@@ -29,7 +29,7 @@ Welcome to the Dice Game repository! This simple console-based Python applicatio
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/dice-game-python.git
+   git clone https://github.com/SiddhantSathe/DiceGame.git
 3. Navigate to repository.
 4. Run the game in your favourite IDE.
    ```bash
