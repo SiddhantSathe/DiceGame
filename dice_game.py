@@ -7,13 +7,13 @@ print("Hi " + player1 + " & "+ player2 +" Welcome to the game of dice.")
 print("""Rules:
        Player will roll dice untill player gets number 1.
        When player receives 1 his chance to roll terminates and next player start to roll.
-       The player with the highest number wins.
-       Player can leave the game anytime by pressing n.
+       Player can leave the game anytime by pressing any key except y.
        At the end of the game the total score of each player will be displayed.
+       The player with the highest number wins.
        !!!ALL THE BEST!!!""")
 def roll():
     total=0
-    print("do you want to roll? Press y for yes and n for no:")
+    print("do you want to roll? Press y for yes:")
     consent=input()
     while consent == "y":
         number = random.choice(list)
@@ -21,7 +21,7 @@ def roll():
             print("the dice roll is {}".format(number))
             total =total + number
             print("YOUR TOTAL IS {}".format(total))
-            print("do you want to roll? Press y for yes and n for no:")
+            print("do you want to roll? Press y for yes:")
             consent = input()
         else:
             print("the dice roll is {}".format(number))
